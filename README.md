@@ -7,7 +7,7 @@ This repo try to solve Node.js in ESM and TypeScript with test coverage.
 ```bash
 # Test framework, you can use mocha instead
 npm i -D jasmine @types/jasmine
-# Coverage, important! nyc not support good in ESM, see detailed in Misc
+# Coverage, important! nyc not support well in ESM. See details in Misc
 npm i -D c8
 npm i -D ts-node typescript
 ```
